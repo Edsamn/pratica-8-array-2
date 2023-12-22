@@ -8,5 +8,7 @@ let numero = Number(prompt("digite um número"))
 for (let sorteado of vetor) {
     if (sorteado == numero) {
         console.log('Está na lista')
+        break;
     } console.log('Não está na lista')
+    break;
 } 
